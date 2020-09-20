@@ -7,36 +7,23 @@ This is a repo of the code used for my Final Year Project, this projects goal wa
 * The website connects to the Database using PHP to send and recive data.
 * Using the Unity Game Engine a mobile application was made which using C# scripts receivees data from the database using PHP on what the user desinged on the webiste and then 
 # Process
-Data Collection was done using a python script with the selenium library. This process used python multiprocessing to make the process as efficient as possible.
-Data transformation by converting the resulting XML files into a single CSV file. During this process, missing values were fixed.
-Feature engineering was also done: categorical values were one-hot encoded, a database containing additional data was connected to instances of the dataset, features were combined and removed and finally overhauled of features was done to make sure each instance was able to accurately modelled in the same number of features.
-The dataset was split up into three smaller datasets for use as a train, test and validation sets.
-7 different machine learning models were tuned and compared to find the best possible model. The models used were Lasso, ElasticNet, Sequential, LSTM, BILSTM, XGB and LGB.
-The results showed a stacked combination of XGB and LGB produced the best results with the dataset. With these models, we were able to get an 0.86 R2 Value over the dataset.
-Libraries, Tools and Methods
-Python Libraries:
+1. The website was created from scratch using HTML and CSS to style.
+2. JavaScript was added to the website to make it interacitve with panels which change and move according to the users choices.
+3. PHP was finally added to the website in working with JavaScripts to allow data to be received from the database when the website loads to allow changes in the database to reflect over the entire website. PHP also allows the user to save their creation to the database as well as retrieve their creation to make changes.
+4. The Unity Engine was used with Google VR libraries to allow for simple VR to be produced on a phone.
+5. C# scirpts connected to PHP scripts downloaded the room data that the User designed.
+6. C# is used to take this data and recrete the room that the user designed.
 
-Numpy
-Pandas
-Sci-Kit Learn
-SciPy
-Keras
-XGB
-LGB
-Selenium
-Python Multiprocessing
-XML
-openpyx1
-venv
+Languages and Tools
+Languages:
+C#
+HTML
+JavaScript
+PHP
+CSS
+SQL
+
 Tools used:
-
-Excel
-WEKA
-MATLAB
-LaTeX
-Deep Feature Selection Methods:
-
-AFS: https://github.com/upup123/AAAI-2019-AFS
-CancelOut: https://github.com/unnir/CancelOut
-Concrete Autoencoders: https://github.com/mfbalin/Concrete-Autoencoders
-TSFS: https://github.com/alimirzaei/TSFS
+Unity Game Engine
+MySQL
+Google VR
