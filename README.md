@@ -17,15 +17,15 @@ This is a repo of the code used for my Final Year Project, the goal of this proj
 # Languages and Tools
 
 Languages:
-C#
-HTML
-JavaScript
-PHP
-CSS
-SQL
+* C#
+* HTML
+* JavaScript
+* PHP
+* CSS
+* SQL
 
 Tools used:
 
-Unity Game Engine
-MySQL
-Google VR
+* Unity Game Engine
+* MySQL
+* Google VR
